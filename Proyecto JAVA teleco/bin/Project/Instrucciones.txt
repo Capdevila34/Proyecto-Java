@@ -1,0 +1,14 @@
+ReadMosaic mosaicos.txt
+CreateRegion prueba,0,0,5,10
+ChangeLuminosityMosaic 25 
+ChangeLuminosityRegion 30,regionUno 
+ChangeLuminosityTile 35,1,2
+
+ChangeStatusMosaic 2 
+ChangeStatusRegion 1,regionPrueba 
+ChangeStatusTile 0,3,4  
+
+SortRegionsByArea region.txt
+
+SaveMosaic mosaico.txt
+
